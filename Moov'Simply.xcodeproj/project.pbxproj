@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351B676C1794267F004F6BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B676B1794267F004F6BFC /* Foundation.framework */; };
+		351B676E1794267F004F6BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B676D1794267F004F6BFC /* CoreGraphics.framework */; };
+		351B67701794267F004F6BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B676F1794267F004F6BFC /* UIKit.framework */; };
+		351B67761794267F004F6BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351B67741794267F004F6BFC /* InfoPlist.strings */; };
+		351B67781794267F004F6BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B67771794267F004F6BFC /* main.m */; };
+		351B677C1794267F004F6BFC /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B677B1794267F004F6BFC /* MSAppDelegate.m */; };
+		351B677F1794267F004F6BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B677D1794267F004F6BFC /* Main.storyboard */; };
+		351B67821794267F004F6BFC /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B67811794267F004F6BFC /* MSViewController.m */; };
+		351B67841794267F004F6BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351B67831794267F004F6BFC /* Images.xcassets */; };
+		351B678B1794267F004F6BFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B678A1794267F004F6BFC /* XCTest.framework */; };
+		351B678C1794267F004F6BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B676B1794267F004F6BFC /* Foundation.framework */; };
+		351B678D1794267F004F6BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B676F1794267F004F6BFC /* UIKit.framework */; };
+		351B67951794267F004F6BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 351B67931794267F004F6BFC /* InfoPlist.strings */; };
+		351B679717942680004F6BFC /* Moov_SimplyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B67961794267F004F6BFC /* Moov_SimplyTests.m */; };
+		351B67A7179428BC004F6BFC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B67A6179428BC004F6BFC /* MapKit.framework */; };
+		351B67AA17942BF0004F6BFC /* MSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B67A917942BF0004F6BFC /* MSMapViewController.m */; };
+		351B67AE17942DA9004F6BFC /* MSTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B67AD17942DA9004F6BFC /* MSTransport.m */; };
+		351B67B017942E6B004F6BFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B67AF17942E6B004F6BFC /* CoreLocation.framework */; };
+		351B67B217943494004F6BFC /* Paris.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 351B67B117943494004F6BFC /* Paris.gpx */; };
+		35787B7317959A3600966ECA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35787B7217959A3600966ECA /* QuartzCore.framework */; };
+		35D357CC17957EB4007ED8BE /* MSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D357CB17957EB4007ED8BE /* MSAnnotation.m */; };
+		35D357D317958C12007ED8BE /* MSTransportDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D357D217958C12007ED8BE /* MSTransportDetailsView.m */; };
+		35D357D517958C38007ED8BE /* MSTransportDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D357D417958C38007ED8BE /* MSTransportDetailsView.xib */; };
+		3EE4CE01AAAE437B90133C5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75184CEB80AC4056AB3522BB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351B678E1794267F004F6BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351B67601794267F004F6BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351B67671794267F004F6BFC;
+			remoteInfo = "Moov'Simply";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351B67681794267F004F6BFC /* Moov'Simply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moov'Simply.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351B676B1794267F004F6BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		351B676D1794267F004F6BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		351B676F1794267F004F6BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		351B67731794267F004F6BFC /* Moov'Simply-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moov'Simply-Info.plist"; sourceTree = "<group>"; };
+		351B67751794267F004F6BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		351B67771794267F004F6BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		351B67791794267F004F6BFC /* Moov'Simply-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moov'Simply-Prefix.pch"; sourceTree = "<group>"; };
+		351B677A1794267F004F6BFC /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		351B677B1794267F004F6BFC /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		351B677E1794267F004F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351B67801794267F004F6BFC /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		351B67811794267F004F6BFC /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		351B67831794267F004F6BFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		351B67891794267F004F6BFC /* Moov'SimplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moov'SimplyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351B678A1794267F004F6BFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		351B67921794267F004F6BFC /* Moov'SimplyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moov'SimplyTests-Info.plist"; sourceTree = "<group>"; };
+		351B67941794267F004F6BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		351B67961794267F004F6BFC /* Moov_SimplyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moov_SimplyTests.m; sourceTree = "<group>"; };
+		351B67A6179428BC004F6BFC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		351B67A817942BF0004F6BFC /* MSMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMapViewController.h; sourceTree = "<group>"; };
+		351B67A917942BF0004F6BFC /* MSMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMapViewController.m; sourceTree = "<group>"; };
+		351B67AC17942DA9004F6BFC /* MSTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTransport.h; sourceTree = "<group>"; };
+		351B67AD17942DA9004F6BFC /* MSTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTransport.m; sourceTree = "<group>"; };
+		351B67AF17942E6B004F6BFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		351B67B117943494004F6BFC /* Paris.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Paris.gpx; sourceTree = "<group>"; };
+		35787B7217959A3600966ECA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35D357CA17957EB4007ED8BE /* MSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAnnotation.h; sourceTree = "<group>"; };
+		35D357CB17957EB4007ED8BE /* MSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAnnotation.m; sourceTree = "<group>"; };
+		35D357D117958C12007ED8BE /* MSTransportDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTransportDetailsView.h; sourceTree = "<group>"; };
+		35D357D217958C12007ED8BE /* MSTransportDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTransportDetailsView.m; sourceTree = "<group>"; };
+		35D357D417958C38007ED8BE /* MSTransportDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSTransportDetailsView.xib; sourceTree = "<group>"; };
+		75184CEB80AC4056AB3522BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF115E77E46C426B9626C551 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351B67651794267F004F6BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35787B7317959A3600966ECA /* QuartzCore.framework in Frameworks */,
+				351B67B017942E6B004F6BFC /* CoreLocation.framework in Frameworks */,
+				351B67A7179428BC004F6BFC /* MapKit.framework in Frameworks */,
+				351B676E1794267F004F6BFC /* CoreGraphics.framework in Frameworks */,
+				351B67701794267F004F6BFC /* UIKit.framework in Frameworks */,
+				351B676C1794267F004F6BFC /* Foundation.framework in Frameworks */,
+				3EE4CE01AAAE437B90133C5C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B67861794267F004F6BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B678B1794267F004F6BFC /* XCTest.framework in Frameworks */,
+				351B678D1794267F004F6BFC /* UIKit.framework in Frameworks */,
+				351B678C1794267F004F6BFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351B675F1794267F004F6BFC = {
+			isa = PBXGroup;
+			children = (
+				35D357D417958C38007ED8BE /* MSTransportDetailsView.xib */,
+				35D357D117958C12007ED8BE /* MSTransportDetailsView.h */,
+				35D357D217958C12007ED8BE /* MSTransportDetailsView.m */,
+				351B67711794267F004F6BFC /* Moov'Simply */,
+				351B67901794267F004F6BFC /* Moov'SimplyTests */,
+				351B676A1794267F004F6BFC /* Frameworks */,
+				351B67691794267F004F6BFC /* Products */,
+				AF115E77E46C426B9626C551 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		351B67691794267F004F6BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351B67681794267F004F6BFC /* Moov'Simply.app */,
+				351B67891794267F004F6BFC /* Moov'SimplyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351B676A1794267F004F6BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35787B7217959A3600966ECA /* QuartzCore.framework */,
+				351B67AF17942E6B004F6BFC /* CoreLocation.framework */,
+				351B67A6179428BC004F6BFC /* MapKit.framework */,
+				351B676B1794267F004F6BFC /* Foundation.framework */,
+				351B676D1794267F004F6BFC /* CoreGraphics.framework */,
+				351B676F1794267F004F6BFC /* UIKit.framework */,
+				351B678A1794267F004F6BFC /* XCTest.framework */,
+				75184CEB80AC4056AB3522BB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351B67711794267F004F6BFC /* Moov'Simply */ = {
+			isa = PBXGroup;
+			children = (
+				351B67AB17942D73004F6BFC /* Model */,
+				351B677A1794267F004F6BFC /* MSAppDelegate.h */,
+				351B677B1794267F004F6BFC /* MSAppDelegate.m */,
+				351B677D1794267F004F6BFC /* Main.storyboard */,
+				351B67801794267F004F6BFC /* MSViewController.h */,
+				351B67811794267F004F6BFC /* MSViewController.m */,
+				351B67831794267F004F6BFC /* Images.xcassets */,
+				351B67721794267F004F6BFC /* Supporting Files */,
+				351B67A817942BF0004F6BFC /* MSMapViewController.h */,
+				351B67A917942BF0004F6BFC /* MSMapViewController.m */,
+				351B67B117943494004F6BFC /* Paris.gpx */,
+				35D357CA17957EB4007ED8BE /* MSAnnotation.h */,
+				35D357CB17957EB4007ED8BE /* MSAnnotation.m */,
+			);
+			path = "Moov'Simply";
+			sourceTree = "<group>";
+		};
+		351B67721794267F004F6BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				351B67731794267F004F6BFC /* Moov'Simply-Info.plist */,
+				351B67741794267F004F6BFC /* InfoPlist.strings */,
+				351B67771794267F004F6BFC /* main.m */,
+				351B67791794267F004F6BFC /* Moov'Simply-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		351B67901794267F004F6BFC /* Moov'SimplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				351B67961794267F004F6BFC /* Moov_SimplyTests.m */,
+				351B67911794267F004F6BFC /* Supporting Files */,
+			);
+			path = "Moov'SimplyTests";
+			sourceTree = "<group>";
+		};
+		351B67911794267F004F6BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				351B67921794267F004F6BFC /* Moov'SimplyTests-Info.plist */,
+				351B67931794267F004F6BFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		351B67AB17942D73004F6BFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				351B67AC17942DA9004F6BFC /* MSTransport.h */,
+				351B67AD17942DA9004F6BFC /* MSTransport.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351B67671794267F004F6BFC /* Moov'Simply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351B679A17942680004F6BFC /* Build configuration list for PBXNativeTarget "Moov'Simply" */;
+			buildPhases = (
+				47E477D751E348F9B00AE7E7 /* Check Pods Manifest.lock */,
+				351B67641794267F004F6BFC /* Sources */,
+				351B67651794267F004F6BFC /* Frameworks */,
+				351B67661794267F004F6BFC /* Resources */,
+				2183B776A2784543A2A40A8D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moov'Simply";
+			productName = "Moov'Simply";
+			productReference = 351B67681794267F004F6BFC /* Moov'Simply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351B67881794267F004F6BFC /* Moov'SimplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351B679D17942680004F6BFC /* Build configuration list for PBXNativeTarget "Moov'SimplyTests" */;
+			buildPhases = (
+				351B67851794267F004F6BFC /* Sources */,
+				351B67861794267F004F6BFC /* Frameworks */,
+				351B67871794267F004F6BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351B678F1794267F004F6BFC /* PBXTargetDependency */,
+			);
+			name = "Moov'SimplyTests";
+			productName = "Moov'SimplyTests";
+			productReference = 351B67891794267F004F6BFC /* Moov'SimplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351B67601794267F004F6BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DuchessFrance;
+				TargetAttributes = {
+					351B67881794267F004F6BFC = {
+						TestTargetID = 351B67671794267F004F6BFC;
+					};
+				};
+			};
+			buildConfigurationList = 351B67631794267F004F6BFC /* Build configuration list for PBXProject "Moov'Simply" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351B675F1794267F004F6BFC;
+			productRefGroup = 351B67691794267F004F6BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351B67671794267F004F6BFC /* Moov'Simply */,
+				351B67881794267F004F6BFC /* Moov'SimplyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351B67661794267F004F6BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B67841794267F004F6BFC /* Images.xcassets in Resources */,
+				351B67B217943494004F6BFC /* Paris.gpx in Resources */,
+				351B67761794267F004F6BFC /* InfoPlist.strings in Resources */,
+				35D357D517958C38007ED8BE /* MSTransportDetailsView.xib in Resources */,
+				351B677F1794267F004F6BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B67871794267F004F6BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B67951794267F004F6BFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2183B776A2784543A2A40A8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		47E477D751E348F9B00AE7E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351B67641794267F004F6BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D357D317958C12007ED8BE /* MSTransportDetailsView.m in Sources */,
+				351B677C1794267F004F6BFC /* MSAppDelegate.m in Sources */,
+				351B67AE17942DA9004F6BFC /* MSTransport.m in Sources */,
+				35D357CC17957EB4007ED8BE /* MSAnnotation.m in Sources */,
+				351B67AA17942BF0004F6BFC /* MSMapViewController.m in Sources */,
+				351B67821794267F004F6BFC /* MSViewController.m in Sources */,
+				351B67781794267F004F6BFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351B67851794267F004F6BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B679717942680004F6BFC /* Moov_SimplyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351B678F1794267F004F6BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351B67671794267F004F6BFC /* Moov'Simply */;
+			targetProxy = 351B678E1794267F004F6BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351B67741794267F004F6BFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351B67751794267F004F6BFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		351B677D1794267F004F6BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351B677E1794267F004F6BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351B67931794267F004F6BFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351B67941794267F004F6BFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351B679817942680004F6BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		351B679917942680004F6BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351B679B17942680004F6BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF115E77E46C426B9626C551 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moov'Simply/Moov'Simply-Prefix.pch";
+				INFOPLIST_FILE = "Moov'Simply/Moov'Simply-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		351B679C17942680004F6BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF115E77E46C426B9626C551 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moov'Simply/Moov'Simply-Prefix.pch";
+				INFOPLIST_FILE = "Moov'Simply/Moov'Simply-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		351B679E17942680004F6BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moov'Simply.app/Moov'Simply";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moov'Simply/Moov'Simply-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moov'SimplyTests/Moov'SimplyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		351B679F17942680004F6BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moov'Simply.app/Moov'Simply";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moov'Simply/Moov'Simply-Prefix.pch";
+				INFOPLIST_FILE = "Moov'SimplyTests/Moov'SimplyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351B67631794267F004F6BFC /* Build configuration list for PBXProject "Moov'Simply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B679817942680004F6BFC /* Debug */,
+				351B679917942680004F6BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351B679A17942680004F6BFC /* Build configuration list for PBXNativeTarget "Moov'Simply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B679B17942680004F6BFC /* Debug */,
+				351B679C17942680004F6BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351B679D17942680004F6BFC /* Build configuration list for PBXNativeTarget "Moov'SimplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351B679E17942680004F6BFC /* Debug */,
+				351B679F17942680004F6BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351B67601794267F004F6BFC /* Project object */;
+}
