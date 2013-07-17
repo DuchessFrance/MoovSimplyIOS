@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FAB3218D-B62F-44E9-A905-FFA69712F64E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Moov'Simply</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF23B210-B1B2-4421-BD8A-A6CC8F819CB6</key>
+		<string>ssh://github.com/DuchessFrance/MoovSimplyIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Moov'Simply.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF23B210-B1B2-4421-BD8A-A6CC8F819CB6</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/DuchessFrance/MoovSimplyIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF23B210-B1B2-4421-BD8A-A6CC8F819CB6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF23B210-B1B2-4421-BD8A-A6CC8F819CB6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MoovSimplyIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
